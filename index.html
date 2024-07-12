@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date Invitation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <img src="pityface.webp" alt="Invitation" class="center-image" id="invitation-image">
+        <div class="buttons" id="buttons-container">
+            <button id="yes-button">Yes</button>
+            <button id="no-button">No</button>
+        </div>
+        <div id="itinerary" style="display: none;">
+            <h2>Itinerary</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Itinerary</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Going to visit a place</td>
+                        <td>Can wear anything that is comfortable to move.</td>
+                    </tr>
+                    <tr>
+                        <td>TeaLunch</td>
+                        <td>Normal wear. Cause it's a normal restaurant.</td>
+                    </tr>
+                    <tr>
+                        <td>Gonna have dessert</td>
+                        <td>Maybe dress up like a girl.</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p> <br> <br> I don't know what kind of dress to wear, so have to decide based on the itinerary. 
+                <br> <br> So I will wear anything you choose (which shows less thoppai) and I will approve yours.</p>
+        </div>
+    </div>
+
+    <!-- Audio BGM -->
+    <audio id="bgm" autoplay loop>
+        <source src="bgm.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
